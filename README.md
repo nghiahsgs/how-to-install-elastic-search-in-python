@@ -30,7 +30,10 @@ pip install elasticsearch[async]
 ```python
 from datetime import datetime
 from elasticsearch import Elasticsearch
-es = Elasticsearch()
+es = Elasticsearch(
+    # cloud_id='kUMBqEoxQki64BnrHHygGg'
+    hosts=''
+    )
 
 doc = {
     'author': 'kimchy',

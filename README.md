@@ -27,7 +27,7 @@ pip install elasticsearch
 pip install elasticsearch[async]
 ```
 
-```
+```python
 from datetime import datetime
 from elasticsearch import Elasticsearch
 es = Elasticsearch()
